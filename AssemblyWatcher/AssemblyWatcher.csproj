@@ -32,14 +32,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.TreeView">
-      <HintPath>..\..\..\ILSpy\ILSpy\bin\Debug\ICSharpCode.TreeView.dll</HintPath>
+      <HintPath>C:\Program Files\ILSpy\ICSharpCode.TreeView.dll</HintPath>
     </Reference>
     <Reference Include="ILSpy">
-      <HintPath>..\..\..\ILSpy\ILSpy\bin\Debug\ILSpy.exe</HintPath>
+      <HintPath>C:\Program Files\ILSpy\ILSpy.exe</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil, Version=0.9.6.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ILSpy\ILSpy\bin\Debug\Mono.Cecil.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>C:\Program Files\ILSpy\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
