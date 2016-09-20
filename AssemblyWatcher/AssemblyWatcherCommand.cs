@@ -87,7 +87,8 @@ namespace AssemblyWatcher.Plugin
         {
             foreach (var assembly in MainWindow.Instance.CurrentAssemblyList.GetAssemblies())
             {
-                StartWatchingAssembly(assembly.FileName);
+                if (File.Exists(assembly.FileName))
+                    StartWatchingAssembly(assembly.FileName);
             }
         }
 
